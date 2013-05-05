@@ -1,7 +1,3 @@
-(function() {
-
-  $(function() {
-    return console.log("it works?");
-  });
-
-}).call(this);
+$(document).ready(function() {
+  $('#magazine').turn({gradients: true, acceleration: true});
+});

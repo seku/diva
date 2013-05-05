@@ -1,1 +1,4 @@
 body { font-family: Geneva, Tahoma, Verdana, sans-serif; color: blue; }
+
+#magazine { width: 800px; height: 400px; }
+#magazine .turn-page { background-color: #cccccc; }
