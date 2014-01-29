@@ -1,4 +1,5 @@
-body { font-family: Geneva, Tahoma, Verdana, sans-serif; color: blue; }
+body { font-family: Geneva, Tahoma, Verdana, sans-serif; color: blue; background-image: url("/images/bg.gif"); }
 
-#magazine { width: 800px; height: 400px; }
-#magazine .turn-page { background-color: #cccccc; }
+.center { width: 1000px; height: 569px; margin: auto; position: relative; z-index: 0; }
+.center #magazine { margin-top: 40px; width: 1040px; height: 569px; box-shadow: 0 0 20px #635b5b; -webkit-transition: margin-left 0.2s ease-in-out; -moz-transition: margin-left 0.2s ease-in-out; -o-transition: margin-left 0.2s ease-in-out; -ms-transition: margin-left 0.2s ease-in-out; transition: margin-left 0.2s ease-in-out; }
+.center #magazine .turn-page { padding-top: 50px; width: 520px; height: 569px; background-color: white; box-shadow: 0 0 0 1px #cccccc inset; }
