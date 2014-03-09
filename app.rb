@@ -19,4 +19,8 @@ class App < Sinatra::Base
     haml :index
   end
 
+  get '/cennik' do
+    haml :cennik
+  end
+
 end
